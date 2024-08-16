@@ -1,0 +1,40 @@
+.service {
+border-bottom: .5px solid var(--mouve);
+background: rgba(135, 80, 247,.2);
+transition: 1s !important;
+}
+
+.service:hover{
+    background:linear-gradient(to right, var(--mouve) , var(--darkMouve));
+    cursor: pointer;
+
+}
+
+.service span {
+    color: var(--mouve);
+    font-size: 2rem;
+}
+.service h2{
+    margin: 0 !important;
+}
+
+.service:hover span{
+    color: var(--white);
+}
+
+.handIcon{
+    transform: translate(-10px,0px);
+}
+
+@keyframes handIconMove {
+    from { transform: translate(-5px,0px)}
+    to { transform: translate(5px,0px)}
+  }
+
+
+
+
+
+
+
+

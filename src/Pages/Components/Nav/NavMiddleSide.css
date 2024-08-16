@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+ul li .ancor{
+color: var(--white);
+text-decoration: none;
+}
+/* ul li .ancor:hover{
+border-bottom: 5px solid var(--mouve);
+    
+} */
+
+ul li span{
+
+    display: block;
+    height: 5px;
+    background-image: linear-gradient(to right, var(--mouve) 0%, var(--darkMouve) 100%);
+    transform: scaleX(0);
+    transition: all .5s;
+}
+ul li:hover span{
+    transform: scaleX(1);
+}
+
+#hireMe {
+    padding: 10px 30px;
+    border-radius: 50px !important;
+    /* background-image: linear-gradient(to right , --mouve , --darkMouve); */
+    background-image: linear-gradient(to right, var(--mouve) 0%, var(--darkMouve) 100%);
+    color: var(--white);
+    border: none;
+    transition: all 0.5s;
+}
+#hireMe:hover{
+    background-image: linear-gradient(to left, var(--mouve) 0%, var(--darkMouve) 100%);
+}

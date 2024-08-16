@@ -1,0 +1,14 @@
+.logoFooter{
+    margin: auto;
+    width: 30%;
+}
+
+.socialMediaIcon > div{
+    transition: .5s;
+    cursor: pointer;
+}
+.socialMediaIcon > div:hover {
+    scale: 2;
+}
+
+

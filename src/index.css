@@ -1,0 +1,11 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box ;
+}
+
+:root {
+  --mouve : #8750f7;
+  --darkMouve : #2a1454;
+  --white : #fff;
+}
