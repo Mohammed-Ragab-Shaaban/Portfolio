@@ -8,7 +8,7 @@ import ContactPage from "./Pages/ContactPage/ContactPage";
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
             <Nav />
         <Routes>
           <Route path="/">
