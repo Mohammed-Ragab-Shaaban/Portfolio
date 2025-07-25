@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "homepage": "https://Mohammed-Ragab-Shaaban.github.io/M-Ragab-portfolio",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
@@ -31,7 +35,8 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
-    "vite": "^5.4.0"
+    "vite": "^7.0.6"
   }
 }
